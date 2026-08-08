@@ -1,0 +1,11 @@
+{
+  "build": {
+    "context": "..",
+    "dockerfile": "Dockerfile"
+  },
+  "containerEnv": {
+    "KUBECONFIG": "/workspaces/tiny-cluster/.kube/config"
+  },
+  "privileged": true,
+  "postCreateCommand": "scripts/setup",
+}

@@ -1,0 +1,7 @@
+[tools]
+kubectl = "latest"
+k3s = "latest"
+"ubi:fluxcd/flux2" = { version = "latest", exe = "flux" }
+
+k9s = "latest"
+direnv = "latest"
