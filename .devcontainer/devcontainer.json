@@ -8,4 +8,5 @@
   },
   "privileged": true,
   "postCreateCommand": "scripts/setup",
+   "forwardPorts": [8080]
 }
