@@ -37,7 +37,7 @@ spec:
         ## Must be provided if Ingress is enable.
         ##
         hosts:
-          - grs.mischavandenburg.net
+          - grs.seb-zero.net
 
         ## TLS configuration for grafana Ingress
         ## Secret must be manually created in the namespace
@@ -45,4 +45,4 @@ spec:
         tls:
           - secretName: grafana-tls-secret
             hosts:
-              - grs.mischavandenburg.net
+              - grs.seb-zero.net
