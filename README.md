@@ -66,7 +66,3 @@ By decoupling infrastructure from manual operations, this setup ensures:
 ## 🤝 Contributing
 
 This repository is a core infrastructure component. Changes should be made via Pull Requests to ensure peer review and automated testing before merging to `main`.
-
-```
-
-This version highlights **Flux** as the central engine and **Kubernetes** as the platform, framing the project as a robust, automated infrastructure solution rather than just a collection of configuration files.
