@@ -14,7 +14,7 @@ spec:
     spec:
       securityContext:
         fsGroup: 1000 # www-data group ID
-        jrunAsUser: 1000 # www-data user ID
+        runAsUser: 1000 # www-data user ID
         runAsGroup: 1000 # www-data group ID
 
       containers:
