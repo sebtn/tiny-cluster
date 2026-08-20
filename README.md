@@ -26,6 +26,7 @@ This project eliminates manual `kubectl` commands for production changes. Instea
 - **Orchestration**: Kubernetes (K8s)
 - **GitOps Engine**: Flux (Bootstrap automated via `scripts`)
 - **Package Manager**: Helm & Kustomize
+- **Dependency Updates**: Mend Renovate (automated security scanning and dependency updates)
 - **Local Dev**: `.devcontainer` support and `mise` for managing CLI dependencies (kubectl, helm, flux)
 - **CI/CD**: GitHub Actions for Docker image builds and registry pushes
 
@@ -55,6 +56,7 @@ kustomize build clusters/staging | kubectl apply -f -
 | `monitoring/` | Observability stack definitions (Prometheus, Grafana) |
 | `scripts/` | Automation for Flux bootstrapping and maintenance |
 | `.devcontainer` | Pre-configured local development environment |
+| `infrastructure/` | Core Kubernetes manifests and Kustomize overlays for cluster-wide resources and environment-specific configurations |
 
 ## 🧩 Why Kubernetes + Flux?
 
